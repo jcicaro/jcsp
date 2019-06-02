@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include">
+    <m2m_sp_theme_css_include action="INSERT_OR_UPDATE">
+        <order>400</order>
+        <sp_css_include display_value="Ionicons">33c02fd4db79b34012b2f00fbf96197f</sp_css_include>
+        <sp_theme display_value="jc.sp Theme">2caf5f94db79b34012b2f00fbf9619ad</sp_theme>
+        <sys_class_name>m2m_sp_theme_css_include</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 01:38:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>22d0e794db79b34012b2f00fbf9619cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Ionicons.jc.sp Theme</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>m2m_sp_theme_css_include_22d0e794db79b34012b2f00fbf9619cc</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-05-30 01:38:10</sys_updated_on>
+    </m2m_sp_theme_css_include>
+</record_update>

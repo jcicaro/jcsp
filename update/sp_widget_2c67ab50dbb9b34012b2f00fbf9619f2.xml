@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.hero {&#13;
+  background: url(city_bg.jpg) no-repeat center;&#13;
+  background-size: cover;&#13;
+  border: none;&#13;
+}&#13;
+&#13;
+@media (min-width:992px) {&#13;
+  .hero .get-it {&#13;
+    text-align: right;&#13;
+    margin-top: 80px;&#13;
+    padding-right: 30px;&#13;
+  }&#13;
+}&#13;
+&#13;
+@media (max-width:992px) {&#13;
+  .hero .get-it {&#13;
+    text-align: center;&#13;
+  }&#13;
+}&#13;
+&#13;
+@media (max-width:992px) {&#13;
+  .hero .phone-preview {&#13;
+    text-align: center;&#13;
+  }&#13;
+}&#13;
+&#13;
+.hero .get-it h1, .hero .get-it p {&#13;
+  color: #fff;&#13;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);&#13;
+  margin-bottom: 40px;&#13;
+}&#13;
+&#13;
+.hero .get-it .btn {&#13;
+  margin-left: 10px;&#13;
+  margin-bottom: 10px;&#13;
+  text-shadow: none;&#13;
+}&#13;
+&#13;
+&#13;
+div.iphone-mockup {&#13;
+  position: relative;&#13;
+  max-width: 250px;&#13;
+  margin: 20px;&#13;
+  display: inline-block;&#13;
+}&#13;
+&#13;
+.iphone-mockup img.device {&#13;
+  width: 100%;&#13;
+  height: auto;&#13;
+}&#13;
+&#13;
+.iphone-mockup .screen {&#13;
+  position: absolute;&#13;
+  width: 88%;&#13;
+  height: 77%;&#13;
+  top: 12%;&#13;
+  border-radius: 2px;&#13;
+  left: 6%;&#13;
+  border: 1px solid #444;&#13;
+  background-color: #233f42;&#13;
+  overflow: hidden;&#13;
+  background: url(../../assets/img/now.jpg);&#13;
+  background-size: contain;&#13;
+  background-position: center center;&#13;
+}&#13;
+&#13;
+.iphone-mockup .screen:before {&#13;
+  content: '';&#13;
+  background-color: #fff;&#13;
+  position: absolute;&#13;
+  width: 70%;&#13;
+  height: 140%;&#13;
+  top: -12%;&#13;
+  right: -60%;&#13;
+  transform: rotate(-19deg);&#13;
+  opacity: 0.2;&#13;
+}&#13;
+&#13;
+.icon-feature {&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+.icon-feature .glyphicon {&#13;
+  font-size: 60px;&#13;
+}&#13;
+&#13;
+section.features {&#13;
+  background-color: #369;&#13;
+  padding: 40px 0;&#13;
+  color: #fff;&#13;
+}&#13;
+&#13;
+.features h2 {&#13;
+  color: #fff;&#13;
+}&#13;
+&#13;
+.features .icon-features {&#13;
+  margin-top: 15px;&#13;
+}&#13;
+&#13;
+.testimonials blockquote {&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+section.testimonials {&#13;
+  margin: 50px 0;&#13;
+}&#13;
+&#13;
+&#13;
+.keyboard {&#13;
+  width: 330px;&#13;
+  height: 10px;&#13;
+  border: 1px solid #9c9c9c;&#13;
+  border-bottom-left-radius: 7px;&#13;
+  border-bottom-right-radius: 7px;&#13;
+  background-color: #fff;&#13;
+}&#13;
+&#13;
+.screen {&#13;
+  border: 1px solid #9c9c9c;&#13;
+  border-bottom: none;&#13;
+  width: 300px;&#13;
+  height: 200px;&#13;
+  padding: 10px;&#13;
+  border-radius: 5px;&#13;
+  background-color: #fff;&#13;
+  position: relative;&#13;
+  left: 15px;&#13;
+}&#13;
+&#13;
+.screen .screen-content {&#13;
+  border: 1px solid #c5c5c5;&#13;
+  background-position: 50%;&#13;
+  background-size: cover;&#13;
+  height: 100%;&#13;
+}&#13;
+&#13;
+@media (min-width: 960px) {&#13;
+  .hero .laptop {&#13;
+    margin-top: 75px;&#13;
+    height: 100%;&#13;
+  }&#13;
+}&#13;
+&#13;
+.hero {&#13;
+}&#13;
+&#13;
+.hero-text {&#13;
+  color: white;&#13;
+  background: rgba(0, 0, 0, 0.4);&#13;
+  border-radius: 1em;&#13;
+  padding: 4rem;&#13;
+  margin: 2rem;&#13;
+  box-sizing: border-box;&#13;
+}&#13;
+&#13;
+.hero-text .btn-lg {&#13;
+  margin-left: 15px;&#13;
+  margin-bottom: 5px;&#13;
+}&#13;
+&#13;
+.hero .laptop {&#13;
+  margin-left: auto;&#13;
+  margin-right: auto;&#13;
+}&#13;
+&#13;
+.laptop-container {&#13;
+  display: flex;&#13;
+}&#13;
+&#13;
+.hero .row {&#13;
+  display: flex;&#13;
+  flex-wrap: wrap;&#13;
+}&#13;
+&#13;
+.hero .row .laptop-container {&#13;
+  flex-grow: 1;&#13;
+}&#13;
+&#13;
+.hero .row .hero-text {&#13;
+  flex-grow: 1;&#13;
+}&#13;
+&#13;
+@media (max-width: 960px) {&#13;
+  .hero .hero-text {&#13;
+    order: 2;&#13;
+  }&#13;
+}&#13;
+&#13;
+&#13;
+.features .icon-features {&#13;
+	margin-right: 10px;&#13;
+}&#13;
+&#13;
+&#13;
+.features-left {&#13;
+	padding-left: 8%;&#13;
+}&#13;
+&#13;
+.features-right {&#13;
+	padding-right: 8%;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>jc-sp-index</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) { 
+
+ }]]></link>
+        <name>jc-sp-index</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 02:08:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2c67ab50dbb9b34012b2f00fbf9619f2</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>jc-sp-index</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_widget_2c67ab50dbb9b34012b2f00fbf9619f2</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-02 08:30:14</sys_updated_on>
+        <template><![CDATA[<div class="jumbotron hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 hero-text">
+                    <h1 class="text-center">jc.sp</h1>
+                    <p class="text-center">A portal which allows you to search for ServiceNow scripts and configuration, such as Business Rules, Client Scripts, UI Actions, ACLs, and Script Includes.</p>
+                    <p class="text-center">
+                      <a class="btn btn-primary btn-lg" role="button" href="?id=search&spa=1&q=Glideajax"><i class="fas fa-code"></i>&nbsp; Try it!</a>
+                      <!-- <a class="btn btn-success btn-lg" role="button" href="javascript:void(0)"><i class="fas fa-shopping-cart"></i>&nbsp;Service Catalog</a></p> -->
+                </div>
+                <div class="col-md-4 laptop-container">
+                    <div class="laptop">
+                        <div class="text-center screen">
+                            <div class="screen-content" style="background-image:url(now.jpg);"></div>
+                        </div>
+                        <div class="keyboard"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <section class="testimonials">
+        <blockquote>
+            <p><em>"First, solve the problem. Then, write the code."</em></p>
+            <footer>John Johnson</footer>
+        </blockquote>
+    </section> -->
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 features-left">
+                    <h2>Platform Features</h2>
+                    <p>This site is built using ServiceNow's built in Service Portal platform. It uses modern web technologies such as AngularJS, Bootstrap, Sass, HTML5, and CSS3.</p>
+                </div>
+                <div class="col-md-6 features-right">
+                    <div class="row icon-features">
+                        <div class="col-xs-4 icon-feature"><i class="fab fa-angular" style="font-size: 65px;"></i>
+                            <p>AngularJS</p>
+                        </div>
+                        <div class="col-xs-4 icon-feature"><i class="fab fa-sass" style="font-size: 65px;"></i>
+                            <p>Sass</p>
+                        </div>
+                        <div class="col-xs-4 icon-feature"><i class="fab fa-html5" style="font-size: 65px;"></i>
+                            <p>HTML5 and CSS3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>]]></template>
+    </sp_widget>
+</record_update>

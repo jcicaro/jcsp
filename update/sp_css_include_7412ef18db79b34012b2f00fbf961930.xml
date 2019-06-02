@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <name>Login-Form-Dark.css</name>
+        <source>local</source>
+        <sp_css display_value="Login-Form-Dark.css">40f1a758db79b34012b2f00fbf9619ca</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 01:43:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7412ef18db79b34012b2f00fbf961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login-Form-Dark.css</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_css_include_7412ef18db79b34012b2f00fbf961930</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-05-30 01:43:25</sys_updated_on>
+        <url/>
+    </sp_css_include>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>jc-sp-login</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) { 
+
+ }]]></link>
+        <name>jc-sp-login</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-31 22:21:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8516c5c5dbb1774012b2f00fbf96197b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>jc-sp-login</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_widget_8516c5c5dbb1774012b2f00fbf96197b</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-01 10:42:35</sys_updated_on>
+        <template><![CDATA[<div class="login-dark">
+        <form method="post">
+            <h2 class="sr-only">jc.sp Login</h2>
+            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+          	
+            <div class="form-group"><widget id="widget-login"></widget></div>
+            </form>
+    </div>]]></template>
+    </sp_widget>
+</record_update>

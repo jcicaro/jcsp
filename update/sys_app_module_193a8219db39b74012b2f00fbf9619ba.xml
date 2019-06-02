@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="jc.sp">448f9b94db79b34012b2f00fbf9619a7</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="sp_angular_provider">sys_scope=b77f1f14db79b34012b2f00fbf9619de^EQ<item display_table="sys_scope" display_value="jc.sp" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="b77f1f14db79b34012b2f00fbf9619de"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>sp</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sp_angular_provider</name>
+        <order>700</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-06-01 21:53:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>193a8219db39b74012b2f00fbf9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Angular Providers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sys_app_module_193a8219db39b74012b2f00fbf9619ba</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-01 21:53:25</sys_updated_on>
+        <timeline_page/>
+        <title>Angular Providers</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

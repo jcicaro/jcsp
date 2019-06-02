@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.navbar {
+  margin-bottom: 0;
+  border: none;
+  z-index: 1000;
+}
+
+.navbar-brand .glyphicon {
+  margin-right: 6px;
+}
+
+
+.input-typeahead {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  color: #ccc;
+  box-shadow: none;
+  color: inherit;
+  transition: border-bottom-color 0.3s;
+}
+
+@media (max-width:767px) {
+  .input-typeahead {
+    display: inline-block;
+    width: 100%;
+  }
+  nav .input-group {
+  	display: inline;
+  }
+  .navigation-clean-search .navbar-form {
+  	padding-bottom: 0;
+  }
+}
+
+
+.input-typeahead:focus {
+  border-bottom: 1px solid #aaa;
+}
+
+button[name=search].btn.btn-default {
+	display: none;
+}
+
+.input-typeahead {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  color: #ccc;
+  box-shadow: none;
+  color: inherit;
+  transition: border-bottom-color 0.3s;
+}
+
+@media (max-width:767px) {
+  .input-typeahead {
+    display: inline-block;
+    width: 100%;
+  }
+  nav .input-group {
+  	display: inline;
+  }
+  .navigation-clean-search .navbar-form {
+  	padding-bottom: 0;
+  }
+}
+
+
+.input-typeahead:focus {
+  border-bottom: 1px solid #bbb;
+}
+
+button[name=search].btn.btn-default {
+	display: none;
+}
+
+.navigation-clean-search .navbar-brand img {
+	height: 40px;
+  position: relative;
+  top: -10px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>jc-sp-header</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) { 
+
+ }]]></link>
+        <name>jc-sp-header</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.isMobile = gs.isMobile();
+// 	data.isVAActive = new GlidePluginManager().isActive("com.sn_hr_virtual_agent");
+	data.isLoggedIn = gs.isLoggedIn();
+	
+// 	if(data.isVAActive){
+// 		data.va_chat = $sp.getWidget('sn-va-sp-widget',{
+// 			va_url_params:"sysparm_liveagent_application=hr"
+// 		});
+// 	}
+	
+	data.typeAheadSearch = $sp.getWidget('typeahead-search');
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 01:50:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ceb32bd8db79b34012b2f00fbf961910</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>jc-sp-header</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_header_footer_ceb32bd8db79b34012b2f00fbf961910</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-02 07:55:02</sys_updated_on>
+        <template><![CDATA[
+<nav class="navbar navbar-default navbar-fixed-top navigation-clean-search">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" ng-if="::!portal.logo"
+         href="?id={{::portal.homepage_dv}}"><span>{{::portal.title}}</span>
+      </a>
+      <a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" href="?id={{::portal.homepage_dv}}">
+        <img ng-src="{{::portal.logo}}" alt="{{::portal.title}}" />
+      </a>
+      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sp-nav-bar">
+        <span class="sr-only">${Toggle navigation}</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div
+         class="collapse navbar-collapse" id="sp-nav-bar">
+      <ul class="nav navbar-nav">
+        <li role="presentation"><a href="#" ng-show="false">Script Includes</a></li>
+        <li role="presentation"><a href="#" ng-show="false">Business Rules</a></li>
+        <li role="presentation"><a href="#" ng-show="false">Client Scripts</a></li>
+        <li role="presentation"><a href="/logout.do?sysparm_goto_url=/jcsp" ng-show="c.data.isLoggedIn">Logout</a></li>
+        <li role="presentation"></li>
+      </ul>
+      <div class="navbar-form navbar-left navbar-right">
+        <sp-widget class="navbar-form navbar-left navbar-right" widget="data.typeAheadSearch" />
+        <!--<div class="form-group"><label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div> -->
+      </div>
+    </div>
+  </div>
+</nav>]]></template>
+    </sp_header_footer>
+</record_update>

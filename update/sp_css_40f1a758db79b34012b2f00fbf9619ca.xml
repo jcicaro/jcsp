@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>.login-dark {&#13;
+  height: 1000px;&#13;
+  background: #475d62 url(../../assets/img/star-sky.jpg);&#13;
+  background-size: cover;&#13;
+  position: relative;&#13;
+}&#13;
+&#13;
+.login-dark form {&#13;
+  max-width: 320px;&#13;
+  width: 90%;&#13;
+  background-color: #1e2833;&#13;
+  padding: 40px;&#13;
+  border-radius: 4px;&#13;
+  transform: translate(-50%, -50%);&#13;
+  position: absolute;&#13;
+  top: 50%;&#13;
+  left: 50%;&#13;
+  color: #fff;&#13;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.2);&#13;
+}&#13;
+&#13;
+.login-dark .illustration {&#13;
+  text-align: center;&#13;
+  padding: 15px 0 20px;&#13;
+  font-size: 100px;&#13;
+  color: #2980ef;&#13;
+}&#13;
+&#13;
+.login-dark form .form-control {&#13;
+  background: none;&#13;
+  border: none;&#13;
+  border-bottom: 1px solid #434a52;&#13;
+  border-radius: 0;&#13;
+  box-shadow: none;&#13;
+  outline: none;&#13;
+  color: inherit;&#13;
+}&#13;
+&#13;
+.login-dark form .btn-primary {&#13;
+  background: #214a80;&#13;
+  border: none;&#13;
+  border-radius: 4px;&#13;
+  padding: 11px;&#13;
+  box-shadow: none;&#13;
+  margin-top: 26px;&#13;
+  text-shadow: none;&#13;
+  outline: none;&#13;
+}&#13;
+&#13;
+.login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {&#13;
+  background: #214a80;&#13;
+  outline: none;&#13;
+}&#13;
+&#13;
+.login-dark form .forgot {&#13;
+  display: block;&#13;
+  text-align: center;&#13;
+  font-size: 12px;&#13;
+  color: #6f7a85;&#13;
+  opacity: 0.9;&#13;
+  text-decoration: none;&#13;
+}&#13;
+&#13;
+.login-dark form .forgot:hover, .login-dark form .forgot:active {&#13;
+  opacity: 1;&#13;
+  text-decoration: none;&#13;
+}&#13;
+&#13;
+.login-dark form .btn-primary:active {&#13;
+  transform: translateY(1px);&#13;
+}&#13;
+&#13;
+</css>
+        <name>Login-Form-Dark.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 01:43:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>40f1a758db79b34012b2f00fbf9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login-Form-Dark.css</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_css_40f1a758db79b34012b2f00fbf9619ca</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-05-30 01:43:25</sys_updated_on>
+    </sp_css>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_search_source">
+    <sp_search_source action="INSERT_OR_UPDATE">
+        <advanced_typeahead_config>false</advanced_typeahead_config>
+        <condition/>
+        <data_fetch_script><![CDATA[(function(query) {
+  var results = [];
+  /* Calculate your results here. */
+  
+  return results;
+})(query);]]></data_fetch_script>
+        <display_fields>name,sys_class_name,api_name,sys_scope,client_callable,description</display_fields>
+        <enable_typeahead>true</enable_typeahead>
+        <facet_generation_script><![CDATA[(function(query, facetService, searchResults) {
+	/* Calculate your facets here using facetService */
+	/* var stateFacet = facetService.createFacet('State', 'state'); */
+	/* stateFacet.addFacetItem('Facet Item Label', '123'); */
+
+})(query, facetService, searchResults);]]></facet_generation_script>
+        <id>jc-sp-script-includes</id>
+        <is_scripted_source>false</is_scripted_source>
+        <name>Script Includes</name>
+        <page display_value="form">ed5f8ec347730200ba13a5554ee49046</page>
+        <pagination_supported>true</pagination_supported>
+        <primary_display_field>name</primary_display_field>
+        <roles/>
+        <search_page_template><![CDATA[<div>
+  <a href="?id=form&sys_id={{item.sys_id}}&table={{item.table}}" class="h4 text-primary m-b-sm block">
+    <span ng-bind-html="highlight(item.primary, data.q)"></span>
+  </a>
+  <span class="text-muted" ng-repeat="f in item.fields">
+    <span class="m-l-xs m-r-xs" ng-if="!$first"> &middot; </span>
+    {{f.label}}: <span ng-bind-html="highlight(f.display_value, data.q)"></span>
+  </span>
+</div>]]></search_page_template>
+        <source_table>sys_script_include</source_table>
+        <sys_class_name>sp_search_source</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-06-01 21:31:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e2f446dddbf5b74012b2f00fbf96196c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Script Includes</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_search_source_e2f446dddbf5b74012b2f00fbf96196c</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-01 21:35:25</sys_updated_on>
+        <typeahead_glyph>wrench</typeahead_glyph>
+        <typeahead_template/>
+    </sp_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=e2f446dddbf5b74012b2f00fbf96196c"/>
+</record_update>

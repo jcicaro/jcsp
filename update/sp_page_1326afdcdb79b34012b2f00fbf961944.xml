@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>.features .icon-features {&#13;
+margin-right: 10px;&#13;
+}&#13;
+&#13;
+.input-typeahead {&#13;
+  background: none;&#13;
+  border: none;&#13;
+  border-bottom: 1px solid #ccc;&#13;
+  border-radius: 0;&#13;
+  color: #ccc;&#13;
+  box-shadow: none;&#13;
+  color: inherit;&#13;
+  transition: border-bottom-color 0.3s;&#13;
+}&#13;
+&#13;
+@media (max-width:767px) {&#13;
+  .input-typeahead {&#13;
+    display: inline-block;&#13;
+    width: 100%;&#13;
+  }&#13;
+  nav .input-group {&#13;
+  	display: inline;&#13;
+  }&#13;
+  .navigation-clean-search .navbar-form {&#13;
+  	padding-bottom: 0;&#13;
+  }&#13;
+}&#13;
+&#13;
+&#13;
+.input-typeahead:focus {&#13;
+  border-bottom: 1px solid #aaa;&#13;
+}&#13;
+&#13;
+button[name=search].btn.btn-default {&#13;
+display: none;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>jc_sp_homepage</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 02:01:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1326afdcdb79b34012b2f00fbf961944</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>jc_sp_homepage</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_page_1326afdcdb79b34012b2f00fbf961944</sys_update_name>
+        <sys_updated_by>jc.icaro</sys_updated_by>
+        <sys_updated_on>2019-05-31 03:35:27</sys_updated_on>
+        <title>jc-sp-homepage</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=1326afdcdb79b34012b2f00fbf961944"/>
+</record_update>

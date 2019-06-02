@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>jc_sp_login</id>
+        <internal>false</internal>
+        <public>true</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-31 22:21:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>22078509dbb1774012b2f00fbf96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>jc_sp_login</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_page_22078509dbb1774012b2f00fbf96196b</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-05-31 22:21:43</sys_updated_on>
+        <title>jc-sp-login</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=22078509dbb1774012b2f00fbf96196b"/>
+</record_update>

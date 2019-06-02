@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>body {&#13;
+  margin-top: 72px;&#13;
+}&#13;
+&#13;
+.login-dark {&#13;
+  /* height: 1000px; */&#13;
+  background: #475d62;&#13;
+  background-size: cover;&#13;
+  position: relative;&#13;
+}&#13;
+&#13;
+.login-container {&#13;
+	height: 100vh;&#13;
+}&#13;
+&#13;
+.login-row {&#13;
+  transform: translateY(50%);&#13;
+}&#13;
+&#13;
+.form-signin .btn.btn-lg {&#13;
+	font-size: 1.1em;&#13;
+}&#13;
+&#13;
+.breadcrumbs-container, .v12fbe2d287330300a785940307cb0b1b .header {&#13;
+	display: none !important;&#13;
+}&#13;
+&#13;
+.navigation-clean-search .navbar-brand img {&#13;
+	width: 43px;&#13;
+}&#13;
+&#13;
+</css>
+        <name>jc.sp-Main-Style.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 02:04:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1ce62350dbb9b34012b2f00fbf961931</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>jc.sp-Main-Style.css</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_css_1ce62350dbb9b34012b2f00fbf961931</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-02 07:52:33</sys_updated_on>
+    </sp_css>
+</record_update>

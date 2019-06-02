@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>.article-list {&#13;
+  color: #313437;&#13;
+  background-color: #fff;&#13;
+}&#13;
+&#13;
+.article-list p {&#13;
+  color: #7d8285;&#13;
+}&#13;
+&#13;
+.article-list h2 {&#13;
+  font-weight: bold;&#13;
+  margin-bottom: 40px;&#13;
+  padding-top: 40px;&#13;
+  color: inherit;&#13;
+}&#13;
+&#13;
+@media (max-width:767px) {&#13;
+  .article-list h2 {&#13;
+    margin-bottom: 25px;&#13;
+    padding-top: 25px;&#13;
+    font-size: 24px;&#13;
+  }&#13;
+}&#13;
+&#13;
+.article-list .intro {&#13;
+  font-size: 16px;&#13;
+  max-width: 500px;&#13;
+  margin: 0 auto;&#13;
+}&#13;
+&#13;
+.article-list .intro p {&#13;
+  margin-bottom: 0;&#13;
+}&#13;
+&#13;
+.article-list .articles {&#13;
+  padding-bottom: 40px;&#13;
+}&#13;
+&#13;
+.article-list .item {&#13;
+  padding-top: 50px;&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+.article-list .item .name {&#13;
+  font-weight: bold;&#13;
+  font-size: 16px;&#13;
+  margin-top: 20px;&#13;
+  color: inherit;&#13;
+}&#13;
+&#13;
+.article-list .item .description {&#13;
+  font-size: 14px;&#13;
+  margin-top: 15px;&#13;
+  margin-bottom: 0;&#13;
+}&#13;
+&#13;
+.article-list .item .action {&#13;
+  font-size: 24px;&#13;
+  width: 24px;&#13;
+  margin: 22px auto 0;&#13;
+  line-height: 1;&#13;
+  display: block;&#13;
+  color: #4f86c3;&#13;
+  opacity: 0.85;&#13;
+  transition: opacity 0.2s;&#13;
+  text-decoration: none;&#13;
+}&#13;
+&#13;
+.article-list .item .action:hover {&#13;
+  opacity: 1;&#13;
+}&#13;
+&#13;
+</css>
+        <name>Article-List.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 01:45:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb726b58db79b34012b2f00fbf961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Article-List.css</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_css_bb726b58db79b34012b2f00fbf961969</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-05-30 01:45:29</sys_updated_on>
+    </sp_css>
+</record_update>

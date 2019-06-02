@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>jc.sp</name>
+        <order>-100</order>
+        <roles>x_9260_jc_sp.admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 01:32:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>448f9b94db79b34012b2f00fbf9619a7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>jc.sp</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sys_app_application_448f9b94db79b34012b2f00fbf9619a7</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-01 21:47:20</sys_updated_on>
+        <title>jc.sp</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>&#13;
+.site-footer {&#13;
+  padding: 20px 0;&#13;
+  text-align: center;&#13;
+  margin-top: 20px;&#13;
+}&#13;
+&#13;
+@media (min-width:768px) {&#13;
+  .site-footer h5 {&#13;
+    text-align: left;&#13;
+  }&#13;
+}&#13;
+&#13;
+.site-footer h5 {&#13;
+  color: inherit;&#13;
+  font-size: 20px;&#13;
+}&#13;
+&#13;
+.site-footer .social-icons a:hover {&#13;
+  opacity: 1;&#13;
+}&#13;
+&#13;
+.site-footer .social-icons a {&#13;
+  display: inline-block;&#13;
+  width: 32px;&#13;
+  border: none;&#13;
+  font-size: 20px;&#13;
+  border-radius: 50%;&#13;
+  margin: 4px;&#13;
+  color: #fff;&#13;
+  text-align: center;&#13;
+  background-color: #798FA5;&#13;
+  height: 32px;&#13;
+  opacity: 0.8;&#13;
+  line-height: 32px;&#13;
+}&#13;
+&#13;
+@media (min-width:768px) {&#13;
+  .site-footer .social-icons {&#13;
+    text-align: right;&#13;
+  }&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>jc-sp-footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) { 
+
+ }]]></link>
+        <name>jc-sp-footer</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 01:51:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>48e3ebd8db79b34012b2f00fbf9619f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>jc-sp-footer</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_header_footer_48e3ebd8db79b34012b2f00fbf9619f5</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-01 10:29:24</sys_updated_on>
+        <template><![CDATA[<footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5 style="font-size: 14px;">JC Icaro © 2019</h5>
+                </div>
+                <div class="col-sm-6 social-icons"><a href="#"><i class="fa fa-github"></i></a><a href="#"><i class="fa fa-codepen"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+            </div>
+        </div>
+    </footer>]]></template>
+    </sp_header_footer>
+</record_update>

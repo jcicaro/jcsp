@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="jc-sp-header">ceb32bd8db79b34012b2f00fbf961910</header>
+        <name>jc.sp Theme</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-05-30 01:33:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2caf5f94db79b34012b2f00fbf9619ad</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>jc.sp Theme</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_theme_2caf5f94db79b34012b2f00fbf9619ad</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-02 08:04:40</sys_updated_on>
+    </sp_theme>
+</record_update>

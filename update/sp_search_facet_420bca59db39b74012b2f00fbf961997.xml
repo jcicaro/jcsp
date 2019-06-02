@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_search_facet">
+    <sp_search_facet action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <field>sys_scope</field>
+        <mapped_facet>false</mapped_facet>
+        <name>Application</name>
+        <order>100</order>
+        <search_source display_value="Business Rules">3b314e99dbf5b74012b2f00fbf96193f</search_source>
+        <selection_type>multi</selection_type>
+        <sort>asc</sort>
+        <sys_class_name>sp_search_facet</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-06-01 21:58:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>420bca59db39b74012b2f00fbf961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_search_facet_420bca59db39b74012b2f00fbf961997</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-01 21:58:47</sys_updated_on>
+        <table>sys_script</table>
+    </sp_search_facet>
+    <sys_translated_text action="delete_multiple" query="documentkey=420bca59db39b74012b2f00fbf961997"/>
+</record_update>

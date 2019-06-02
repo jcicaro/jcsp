@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_search_facet">
+    <sp_search_facet action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <field>ui_type</field>
+        <mapped_facet>false</mapped_facet>
+        <name>UI Type</name>
+        <order>200</order>
+        <search_source display_value="Client Scripts">e2d30e5ddbf5b74012b2f00fbf96198e</search_source>
+        <selection_type>multi</selection_type>
+        <sort>asc</sort>
+        <sys_class_name>sp_search_facet</sys_class_name>
+        <sys_created_by>xJuanCarlo.Icaro</sys_created_by>
+        <sys_created_on>2019-06-02 07:20:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>481c4469db71f74012b2f00fbf961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI Type</sys_name>
+        <sys_package display_value="jc.sp" source="x_9260_jc_sp">b77f1f14db79b34012b2f00fbf9619de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jc.sp">b77f1f14db79b34012b2f00fbf9619de</sys_scope>
+        <sys_update_name>sp_search_facet_481c4469db71f74012b2f00fbf961998</sys_update_name>
+        <sys_updated_by>xJuanCarlo.Icaro</sys_updated_by>
+        <sys_updated_on>2019-06-02 07:20:46</sys_updated_on>
+        <table>sys_script_client</table>
+    </sp_search_facet>
+    <sys_translated_text action="delete_multiple" query="documentkey=481c4469db71f74012b2f00fbf961998"/>
+</record_update>
